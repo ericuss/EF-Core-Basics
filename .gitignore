@@ -1,0 +1,54 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+# Solution 
+*.suo
+.vs
+.vscode
+/.vs
+/.vscode
+/.vs/**/*
+/.vscode/**/*
+**/.vs
+**/.vscode
+**/.vs/**/*
+**/.vscode/**/*
+/packages
+*.xproj.user
+*.project.lock.json
+project.lock.json
+package-lock.json
+*yarn*
+yarn*
+
+
+
+
+# directories vs
+**/bin
+bin
+**/obj/
+**/obj/Debug
+**/v14
+
+# other directories 
+**/publish
+publish
+
+# js 
+**/node_modules
+**/wwwroot/lib
+**/wwwroot/js/modules
+**/wwwroot/js/app/modules
+**/wwwroot/js/app/bootstrapperRoot.js
+**/wwwroot/js/app/
+**/wwwroot/_references.js
+
+# tests && node modules
+_Chutzpah*.html
+**/karma-*
+**/coverage
+coverage
+**/npm-*.log
+
