@@ -16,7 +16,6 @@ namespace EF.Core.Contexts.Mapping
         {
             entity.ToTable("Whiners");
             entity.HasKey(x => x.Id);
-            //entity.Ignore(x => x.Family);
             entity.Property("Family")
                     .HasConversion(new ValueConverter<TokidokiFamily, string>(
                         v => v.ToString(),
